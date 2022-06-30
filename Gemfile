@@ -90,5 +90,5 @@ gem 'devise-jwt'
 gem 'dotenv-rails', groups: %i[development test]
 gem 'jwt'
 gem 'rack-cors'
-gem 'dotenv-rails'gem 'rubocop', '~> 1.30'
-
+gem 'dotenv-rails'
+gem 'rubocop', '~> 1.30'
