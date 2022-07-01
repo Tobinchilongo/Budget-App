@@ -44,8 +44,8 @@ The end result should follow the data model below (this is an Entity Relationshi
 
 ### Setup
 ```
-git clone https://github.com/Mwapsam/Budget-app.git
-cd Budget-app
+git clone https://git@github.com:Tobinchilongo/Budget-App.git
+cd Budget-App
 ```
 ### Install
 ```
