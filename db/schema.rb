@@ -65,10 +65,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_06_30_175706) do
     t.bigint "user_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.bigint "category_id_id"
     t.bigint "category_id"
     t.index ["category_id"], name: "index_payments_on_category_id"
-    t.index ["category_id_id"], name: "index_payments_on_category_id_id"
     t.index ["user_id"], name: "index_payments_on_user_id"
   end
 
