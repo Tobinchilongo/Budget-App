@@ -1,7 +1,7 @@
 <%= render "shared/nav" %>
 <div class="d-flex  justify-content-between">
-   <%= link_to '', categories_path, class: "fa fa-arrow-circle-left btn btn-primary m-3"  %>
-   <%= button_to "", category_payment_path(category_id: @category.id, id: @category), method: :delete, class: 'bi bi-archive-fill btn btn-danger m-3' %>
+   <%= link_to 'Back', categories_path, class: "btn btn-primary m-3"  %>
+   <%= button_to "Delete", category_payment_path(category_id: @category.id, id: @category), method: :delete, class: 'bi bi-archive-fill btn btn-danger m-3' %>
 </div>
 <div class="card">
    <div class="card-body">

@@ -26,6 +26,12 @@
   --font: 'Poppins', sans-serif;
 }
 
+.eraser {
+  background-color: #f00;
+  border-radius: 50%;
+  padding: 10px;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     background-color: var(--neutral-color-2);
